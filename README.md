@@ -5,9 +5,11 @@ Modern, soft mor temalı Flutter e-ticaret katalog uygulaması.
 ---
 
 ## 📱 Ekran Görüntüleri
-https://github.com/dilaraunal2/MiniKatalogUygulamas-/blob/master/Katalog.PNG
-https://github.com/dilaraunal2/MiniKatalogUygulamas-/blob/master/ÜrünBilgi.PNG
-https://github.com/dilaraunal2/MiniKatalogUygulamas-/blob/master/Cart.PNG
+
+
+<img width="599" height="1040" alt="Katalog" src="https://github.com/user-attachments/assets/98ad290a-df3b-433b-9d70-04f308f04412" />
+<img width="590" height="1026" alt="ÜrünBilgi" src="https://github.com/user-attachments/assets/438bcdad-d6e1-40fc-ae83-c6c8a9aa1919" />
+<img width="607" height="1044" alt="Cart" src="https://github.com/user-attachments/assets/406d3272-1bac-4ab9-8064-8e924c7afa3c" />
 
 
 
