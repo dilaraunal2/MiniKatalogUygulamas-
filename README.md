@@ -6,7 +6,7 @@ Modern, soft mor temalı Flutter e-ticaret katalog uygulaması.
 
 ## 📱 Ekran Görüntüleri
 
-![home](screenshots/home.png)
+ÜrünBilgi.PNG
 
 ---
 
@@ -82,5 +82,5 @@ lib/
 
 ## 👩‍💻 Geliştirici Notu
 
-Bu proje Flutter günlük eğitimi kapsamında geliştirilmiştir.  
+Bu proje Software Persona Şirketi stajımda Flutter eğitimi kapsamında geliştirilmiştir.  
 Temel widget yapısı, sayfa geçişleri, state management ve API entegrasyonu konularını kapsamaktadır.
