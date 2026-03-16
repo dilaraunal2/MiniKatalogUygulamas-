@@ -1,56 +1,56 @@
-# Mini Katalog Uygulaması
+🛍️ Mini Katalog
+Modern, soft mor temalı Flutter e-ticaret katalog uygulaması.
 
-Soft mor temalı, modern tasarımlı Flutter e-ticaret katalog uygulaması.
+📱 Ekran Görüntüleri
 
-## Özellikler
 
-- Ürün listeleme (GridView)
-- Ürün arama & filtreleme
-- Ürün detay sayfası
-- Sepet yönetimi (ekle, çıkar, miktar güncelle)
-- wantapi.com API entegrasyonu
-- Pull-to-refresh
+✨ Özellikler
 
-## Kullanılan Flutter Sürümü
+🔍 Ürün arama & filtreleme
+🗂️ GridView ile ürün listeleme
+📄 Ürün detay sayfası
+🛒 Sepet yönetimi (ekle, çıkar, miktar güncelle)
+🌐 Gerçek API entegrasyonu (wantapi.com)
+🔄 Pull-to-refresh
+💜 Soft mor gradient tema
 
-Flutter 3.41.4 / Dart 3.11.1
 
-## Kurulum ve Çalıştırma
+🛠️ Kullanılan Teknolojiler
+AraçVersiyonFlutter3.41.4Dart3.11.1http^1.2.0provider^6.1.2cached_network_image^3.3.1
 
-```bash
+🚀 Kurulum ve Çalıştırma
+bash# Repoyu klonla
+git clone <repo-url>
+cd mini_katalog
+
 # Bağımlılıkları yükle
 flutter pub get
 
 # Uygulamayı çalıştır
 flutter run
-```
 
-## Proje Yapısı
-
-```
+📁 Proje Yapısı
 lib/
-├── main.dart
+├── main.dart                  # Uygulama giriş noktası
 ├── models/
-│   ├── product.dart
-│   └── cart_item.dart
+│   ├── product.dart           # Ürün veri modeli
+│   └── cart_item.dart         # Sepet öğesi modeli
 ├── providers/
-│   └── cart_provider.dart
+│   └── cart_provider.dart     # Sepet state yönetimi
 ├── screens/
-│   ├── home_screen.dart
-│   ├── detail_screen.dart
-│   └── cart_screen.dart
+│   ├── home_screen.dart       # Ana sayfa
+│   ├── detail_screen.dart     # Ürün detay sayfası
+│   └── cart_screen.dart       # Sepet sayfası
 ├── services/
-│   └── product_service.dart
+│   └── product_service.dart   # API servisi
 ├── theme/
-│   └── app_theme.dart
+│   └── app_theme.dart         # Uygulama teması
 └── widgets/
-    └── product_card.dart
-```
+    └── product_card.dart      # Ürün kart bileşeni
 
-## Ekran Görüntüleri
+🌐 API
+Ürün verileri: wantapi.com/products.php
 
-> screenshots/ klasörüne eklenecek
-
-## API
-
-Ürün verileri: https://wantapi.com/products.php
+👩‍💻 Geliştirici Notu
+Bu proje Software Persona Şirketi stajı Flutter eğitimi kapsamında geliştirilmiştir.
+Temel widget yapısı, sayfa geçişleri, state management ve API entegrasyonu konularını kapsamaktadır.
