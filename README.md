@@ -1,25 +1,43 @@
-🛍️ Mini Katalog
+# 🛍️ Mini Katalog
+
 Modern, soft mor temalı Flutter e-ticaret katalog uygulaması.
 
-📱 Ekran Görüntüleri
+---
 
+## 📱 Ekran Görüntüleri
 
-✨ Özellikler
+![home](screenshots/home.png)
 
-🔍 Ürün arama & filtreleme
-🗂️ GridView ile ürün listeleme
-📄 Ürün detay sayfası
-🛒 Sepet yönetimi (ekle, çıkar, miktar güncelle)
-🌐 Gerçek API entegrasyonu (wantapi.com)
-🔄 Pull-to-refresh
-💜 Soft mor gradient tema
+---
 
+## ✨ Özellikler
 
-🛠️ Kullanılan Teknolojiler
-AraçVersiyonFlutter3.41.4Dart3.11.1http^1.2.0provider^6.1.2cached_network_image^3.3.1
+- 🔍 Ürün arama & filtreleme
+- 🗂️ GridView ile ürün listeleme
+- 📄 Ürün detay sayfası
+- 🛒 Sepet yönetimi (ekle, çıkar, miktar güncelle)
+- 🌐 Gerçek API entegrasyonu (wantapi.com)
+- 🔄 Pull-to-refresh
+- 💜 Soft mor gradient tema
 
-🚀 Kurulum ve Çalıştırma
-bash# Repoyu klonla
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+| Araç | Versiyon |
+|------|----------|
+| Flutter | 3.41.4 |
+| Dart | 3.11.1 |
+| http | ^1.2.0 |
+| provider | ^6.1.2 |
+| cached_network_image | ^3.3.1 |
+
+---
+
+## 🚀 Kurulum ve Çalıştırma
+
+```bash
+# Repoyu klonla
 git clone <repo-url>
 cd mini_katalog
 
@@ -28,29 +46,41 @@ flutter pub get
 
 # Uygulamayı çalıştır
 flutter run
+```
 
-📁 Proje Yapısı
+---
+
+## 📁 Proje Yapısı
+
+```
 lib/
-├── main.dart                  # Uygulama giriş noktası
+├── main.dart
 ├── models/
-│   ├── product.dart           # Ürün veri modeli
-│   └── cart_item.dart         # Sepet öğesi modeli
+│   ├── product.dart
+│   └── cart_item.dart
 ├── providers/
-│   └── cart_provider.dart     # Sepet state yönetimi
+│   └── cart_provider.dart
 ├── screens/
-│   ├── home_screen.dart       # Ana sayfa
-│   ├── detail_screen.dart     # Ürün detay sayfası
-│   └── cart_screen.dart       # Sepet sayfası
+│   ├── home_screen.dart
+│   ├── detail_screen.dart
+│   └── cart_screen.dart
 ├── services/
-│   └── product_service.dart   # API servisi
+│   └── product_service.dart
 ├── theme/
-│   └── app_theme.dart         # Uygulama teması
+│   └── app_theme.dart
 └── widgets/
-    └── product_card.dart      # Ürün kart bileşeni
+    └── product_card.dart
+```
 
-🌐 API
-Ürün verileri: wantapi.com/products.php
+---
 
-👩‍💻 Geliştirici Notu
-Bu proje Software Persona Şirketi stajı Flutter eğitimi kapsamında geliştirilmiştir.
+## 🌐 API
+
+Ürün verileri: [wantapi.com/products.php](https://wantapi.com/products.php)
+
+---
+
+## 👩‍💻 Geliştirici Notu
+
+Bu proje Flutter günlük eğitimi kapsamında geliştirilmiştir.  
 Temel widget yapısı, sayfa geçişleri, state management ve API entegrasyonu konularını kapsamaktadır.
